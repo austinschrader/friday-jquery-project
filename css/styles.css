@@ -1,3 +1,16 @@
 body {
-	background-color: blue;
+	background-color: #decccc;
+	font-family: Lato;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #1098f7;
+}
+
+p {
 }
