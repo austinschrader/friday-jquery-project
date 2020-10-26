@@ -1,23 +1,30 @@
 $(document).ready(function () {
 	$('form#programming').submit(function (event) {
+		event.preventDefault();
+
 		const experienceResult = $('#experience').val();
 		const typeWorkResult = $('#typeWork').val();
 		const hopeToDoResult = $('#hopeToDoResult').val();
 		const experienceLogicResult = $('#experienceLogic').val();
 		const mathAbilityResult = $('#mathAbility').val();
 
+		let recommendation = '';
+
 		if (experienceResult === 'Low') {
-			alert('You should learn Python!');
+			recommendation = ' You should learn Python!';
 		} else if (typeWorkResult === 'Stem') {
-			alert('You should learn R!');
+			recommendation = ' You should learn R!';
 		} else if (hopeToDoResult === 'FANG') {
-			alert('You should learn GO!');
+			recommendation = ' You should learn GO!';
 		} else if (experienceLogicResult === 'High') {
-			alert('You should learn C++');
+			recommendation = ' You should learn C++';
 		} else if (mathAbilityResult === 'High') {
-			alert('You should learn Haskel');
+			recommendation = ' You should learn Haskel';
 		} else {
-			alert('You should learn Python!');
+			recommendation = ' You should learn Python!';
 		}
+
+		$('.hidden-item').show();
+		$('.hidden-item').append(recommendation);
 	});
 });
