@@ -11,4 +11,6 @@ This project was created by Austin Schrader. It was created using CSS, HTML, Jav
 
 ## License
 
-This repository is licensed under the MIT license
+This repository is licensed under the MIT license.
+
+Copyright (c) 2020 by Austin Schrader
