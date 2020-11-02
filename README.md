@@ -1,3 +1,9 @@
+## Programming Quiz
+
+\_Programming quiz that lets you know which programming language is best for you. Just answer some questions and get your results!
+
+By Austin Schrader\_
+
 # Austin Schrader's Project for jQuery Project
 
 ## Description
