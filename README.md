@@ -4,8 +4,6 @@
 
 By Austin Schrader\_
 
-# Austin Schrader's Project for jQuery Project
-
 ## Description
 
 This project was created by Austin Schrader for the Friday project where we have to use jQuery. It was created using CSS, HTML, JavaScript, Git, GitHub, and Markdown.
